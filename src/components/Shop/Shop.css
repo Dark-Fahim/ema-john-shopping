@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .shop-container{
     width: 1170px;
     margin: 0px auto;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    grid-gap: 10px;
     position: relative;
 }
 .products{
@@ -13,9 +16,10 @@
 }
 
 .cart-container{
-    margin-left: 15px;
-    height: 100vh;
+    /* margin-left: 15px; */
     background-color: rgba(255, 153, 0, .3);
     text-align: center;
     border-radius: 10px;
+    font-family: 'lato', sans-serif;
+    width: 100%;
 }

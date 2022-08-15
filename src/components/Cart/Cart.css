@@ -1,5 +1,10 @@
+.carts{
+    position: sticky;
+    top: 1px;
+}
 .summery-info{
     text-align: left;
+    font-size: 15px;
     margin: 0px;
     margin-left: 20px;
     margin-top: 20px;
@@ -8,9 +13,10 @@
     font-size: 22px;
 }
 
-.summery{
+.summery-header{
     font-size: 25px;
     color: #1C2B35;
+    margin-top: 25px;
     
 }
 .clear-cart-btn{
